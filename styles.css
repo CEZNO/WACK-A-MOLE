@@ -56,7 +56,12 @@ body {
 
 .images li img {
   width: 250px;
-  transition: 0.2s;
+  transition: 0.1s;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-select: none;
 }
 
 .images li div {
@@ -74,4 +79,15 @@ body {
 .ta-da {
   opacity: 1;
   transform: translateY(40px);
+}
+
+.footer {
+  color: gray;
+  text-align: center;
+}
+
+.f_version {
+  font-size: 14pt;
+  margin-bottom: 10px;
+  margin-top: 50px;
 }
